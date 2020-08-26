@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/clBannerMain"
+    tools:context=".BannerAdsActivity">
+
+    <!--Adding BannerView Through XML-->
+    <com.huawei.hms.ads.banner.BannerView
+        android:id="@+id/hwBannerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        hwads:adId="testw6vs28auh3"
+        hwads:layout_constraintEnd_toEndOf="parent"
+        hwads:layout_constraintStart_toStartOf="parent"
+        hwads:layout_constraintTop_toTopOf="parent"
+        hwads:bannerSize="BANNER_SIZE_360_57"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
